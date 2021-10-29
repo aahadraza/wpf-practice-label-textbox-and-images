@@ -1,0 +1,20 @@
+﻿<Window x:Class="LABEL_AND_DESKTOP_IMAGE_UPLOAD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LABEL_AND_DESKTOP_IMAGE_UPLOAD"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Image.DpiChanged="https://cdn-icons.flaticon.com/png/512/3098/premium/3098090.png?token=exp=1635525020~hmac=e56c32d66d887d7fbbe4ad2c5d05ffc9">
+    <Grid>
+        <Label HorizontalAlignment="Stretch"  Margin="12,6,20,300"
+               BorderThickness="1"
+               BorderBrush="Black">
+            <StackPanel Orientation="Horizontal">
+                <Image HorizontalAlignment="Stretch"  Source="https://cdn-icons.flaticon.com/png/512/3098/premium/3098090.png?token=exp=1635525020~hmac=e56c32d66d887d7fbbe4ad2c5d05ffc9" Height="100" Width="104" RenderTransformOrigin="0.885,1.8"></Image>
+                <AccessText FontFamily="ARIAL BOLD" FontStyle="Oblique"  FontWeight="Black" FontStretch="SemiCondensed"  FontSize="25" Text="CODE WITH PYTHON" Height="28" Width="280"/>
+            </StackPanel>
+        </Label>
+        <TextBox FontSize="12" SpellCheck.IsEnabled="True" Margin="16,142,78,182"></TextBox>
+    </Grid>
+</Window>

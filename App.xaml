@@ -1,0 +1,9 @@
+﻿<Application x:Class="LABEL_AND_DESKTOP_IMAGE_UPLOAD.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LABEL_AND_DESKTOP_IMAGE_UPLOAD"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
